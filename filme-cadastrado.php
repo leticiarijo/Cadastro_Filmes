@@ -18,10 +18,10 @@
         $linha =  mysqli_affected_rows($mysqli);
 
 
-        if($salvar == 1){
+        if($linha == 1){
             echo "O filme $titulo foi cadastrado com sucesso!";
         }else{
-            echo "Não foi possivel realizar o cadastro. O $titulo já esátá cadastrado";
+            echo "Não foi possivel realizar o cadastro. O $titulo já está cadastrado";
         }
     
 
